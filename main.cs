@@ -1,18 +1,18 @@
 // Created by: Ekaterina
-// Created on: Oct 2022
+// Created on: Nov 2022
 //
-// This program calculates volume of a sphere
+// This program generates random number
 
-using System; 
+using System;
 
 class Program
 {
     public static void Main(string[] args)
     {
-        // This function accepts user input
         int userNumber;
         int randomNumber;
-        
+
+        // This function accepts user input
         Console.WriteLine("Can you guess my number?");
         Console.WriteLine(" ");
 
@@ -24,12 +24,14 @@ class Program
         randomNumber = rnd.Next(1, 6);
 
         Console.WriteLine(" ");
-        if (userNumber == randomNumber) {
-          Console.WriteLine("The answer was " + randomNumber + "! You got it right!");
+        if (userNumber == randomNumber)
+        {
+            Console.WriteLine("The answer was " + randomNumber + "! You got it right!");
         }
 
-        if (userNumber != randomNumber) {
-          Console.WriteLine("The answer was " + randomNumber + ". You got it wrong. :(");
+        if (userNumber != randomNumber)
+        {
+            Console.WriteLine("The answer was " + randomNumber + ". You got it wrong. :(");
         }
 
         Console.WriteLine("\nDone.");
