@@ -2,9 +2,9 @@
 // Created on: Oct 2022
 //
 // This program calculates volume of a sphere
-//
 
-using System;
+using System; 
+
 class Program
 {
     public static void Main(string[] args)
@@ -12,7 +12,7 @@ class Program
         // This function accepts user input
         int userNumber;
         int randomNumber;
-
+        
         Console.WriteLine("Can you guess my number?");
         Console.WriteLine(" ");
 
